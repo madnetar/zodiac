@@ -1,0 +1,51 @@
+ay = int(input("doguldugunuz ayi daxil edin (meselen: 1-12 arasi):  "))
+gun = int(input("doguldugunuz gunu daxil edin:  "))
+
+if ay == 1 and 31 >= gun >=20:
+    print("burcunuz: dolca")
+elif ay == 2 and 19 >= gun >= 1:
+    print("burcunuz: dolca")
+elif ay == 2 and 30 >= gun >=19:
+    print("burcunuz: baliqlar")
+elif ay == 3 and 21 >= gun >=1:
+    print("burcunuz: baliqlar")
+elif ay == 3 and 30 >= gun >=19:
+    print("burcunuz: qoc")
+elif ay == 4 and 20 >= gun >=1:
+    print("burcunuz: qoc")
+elif ay == 4 and 30 >= gun >=20:
+    print("burcunuz: buga")
+elif ay == 5 and 21 >= gun >=1:
+    print("burcunuz: buga")
+elif ay == 5 and 31 >= gun >=21:
+    print("burcunuz: ekizler")
+elif ay == 6 and 21 >= gun >=1:
+    print("burcunuz: ekizler")
+elif ay == 6 and 30 >= gun >=21:
+    print("burcunuz: xerceng")
+elif ay == 7 and 23 >= gun >=1:
+    print("burcunuz: xerceng")
+elif ay == 7 and 31 >= gun >=23:
+    print("burcunuz: sir")
+elif ay == 8 and 23 >= gun >=1:
+    print("burcunuz: sir")
+elif ay == 8 and 31 >= gun >=23:
+    print("burcunuz: qiz")
+elif ay == 9 and 23 >= gun >=1:
+    print("burcunuz: qiz")
+elif ay == 9 and 30 >= gun >=23:
+    print("burcunuz: terezi")
+elif ay == 10 and 23 >= gun >=1:
+    print("burcunuz: terezi")
+elif ay == 10 and 31 >= gun >=23:
+    print("burcunuz: eqreb")
+elif ay == 11 and 22 >= gun >=1:
+    print("burcunuz: eqreb")
+elif ay == 11 and 30 >= gun >=23:
+    print("burcunuz: oxatan")
+elif ay == 12 and 22 >= gun >=1:
+    print("burcunuz: oxatan")
+elif ay == 12 and 31 >= gun >=22:
+    print("burcunuz: oglaq")
+elif ay == 1 and 20 >= gun >=1:
+    print("burcunuz: oglaq")
